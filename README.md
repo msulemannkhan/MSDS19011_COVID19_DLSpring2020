@@ -1,13 +1,12 @@
 # MSDS19011_COVID19_DLSpring2020
 This repository contains code and results for COVID-19 classification assignment by Deep Learning Spring 2020 course offered at Information Technology University, Lahore, Pakistan. This assignment is only for learning purposes and is not intended to be used for clinical purposes
 
-
+## Part1
 # Dataset and Weights
 Dataset can be found [here](https://drive.google.com/drive/folders/1-FzZhQO9oHIT9SNOWYoKsuz7fe447vtR?usp=sharing).
 Learned weights can be found [here](https://drive.google.com/open?id=1DYWT3tLVw8hNYdasFTEedN-esh3-7ah-).
 
 
-### Task 1
 #### VGG
 
 ![vgg_fc_acc](/results/vgg_fc_acc.PNG)
@@ -85,3 +84,37 @@ Test:
 [562.,  53.],
 [ 26., 859.]
 ```
+
+
+
+## Part2
+# Dataset and Weights
+Dataset can be found [here](https://drive.google.com/open?id=1eytbwaLQBv12psV8I-aMkIli9N3bf8nO&authuser=2).
+Learned weights can be found [here](https://drive.google.com/open?id=1Xuiytr14nE_grtBeJ0HRopzNMVPsuOfk).
+
+
+#### VGG
+
+
+![vgg_fl](/results/vgg_fl.PNG)
+
+<p align="center"> 
+<img src="/results/vgg_fl_confusion.PNG">
+</p>
+
+
+Accuracy: 93, 
+F1 Score: 0.89
+
+
+#### Resnet18
+
+![resnet_fl](/results/resnet_fl.PNG)
+
+<p align="center"> 
+<img src="/results/resnet_fl_confusion.PNG">
+</p>
+
+
+Accuracy: 91, 
+F1 Score: 0.89
